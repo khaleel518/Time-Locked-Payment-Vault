@@ -1,0 +1,39 @@
+{
+  "name": "time-locked-payment-vault",
+  "version": "1.0.0",
+  "description": "A secure Cardano-based smart contract for time-locked ADA deposits and withdrawals",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "@meshsdk/core": "^1.7.0",
+    "@meshsdk/react": "^1.7.0",
+    "date-fns": "^2.30.0",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5",
+    "vite-plugin-top-level-await": "^1.6.0",
+    "vite-plugin-wasm": "^3.5.0"
+  },
+  "keywords": [
+    "cardano",
+    "blockchain",
+    "smart-contract",
+    "time-lock",
+    "vault",
+    "meshjs",
+    "ada"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
